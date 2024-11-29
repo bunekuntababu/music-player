@@ -1,0 +1,75 @@
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(165, 186, 223);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../../public/images/music.jpg');
+    background-size: cover;
+    background-position: center;
+
+  
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+  border: 2px solid rgb(205, 34, 34); /* Adds a white border with 2px thickness */
+  border-radius: 10px; /* Optional: Rounds the corners */
+  /* background-color: rgba(255, 255, 255, 0.1); Optional: Adds a translucent background */
+  animation: myAnim 2s ease 0s 1 normal forwards;
+
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.login-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: blue;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: rgb(58, 240, 22);
+  color:rgb(0, 0, 0);
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
