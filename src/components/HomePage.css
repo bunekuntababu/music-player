@@ -24,6 +24,8 @@
 .content {
   text-align: center;
   padding: 20px;
+  color: black;
+  background-color: rgba(127, 255, 212, 0.296);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
   border: 2px solid rgb(205, 34, 34); /* Adds a white border with 2px thickness */
   border-radius: 10px; /* Optional: Rounds the corners */

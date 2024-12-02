@@ -1,11 +1,18 @@
 /* General Page Styling */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e4e130;
+  /* background-color: #e4e130; */
   color: rgb(13, 68, 233);
   margin: 0;
   /* margin-top: 20px; */
   padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../public/images/music.jpg);
+  background-size: cover;
+  background-position: center;
 
   display: flex;
   justify-content: center;
@@ -22,7 +29,7 @@ body {
 .music-player {
   max-width: 1600px;
   height: 700px; 
-  background-color: #1cdd5c;
+  background-color: #b5e6c56d;
   border-radius: 15px;
   padding: 30px; 
   box-shadow: 0 5px 15px rgba(252, 239, 239, 0.5);
@@ -138,7 +145,7 @@ body {
   appearance: none;
   width: 14px;
   height: 14px;
-  background: #1db954;
+  background: #ec3a09;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -155,7 +162,7 @@ body {
 .track-list,
 .wishlist {
   flex: 1;
-  background: white;
+  background: rgba(255, 255, 255, 0.478);
   padding: 20px; 
   border-radius: 10px;
   overflow-y: auto;
@@ -200,7 +207,7 @@ body {
 .wishlist li button {
   background: none;
   border: none;
-  color: #fff;
+  color: red;
   font-size: 1.5rem; 
   cursor: pointer;
   transition: color 0.2s ease;
